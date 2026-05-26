@@ -2,7 +2,7 @@ name: Daily Trigger for ai-news-digest
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # TEMP: verify public repo cron works
+    - cron: "0 0 * * *"  # UTC midnight = Beijing 08:00
   workflow_dispatch:
 
 jobs:
